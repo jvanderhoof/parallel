@@ -1,0 +1,4 @@
+add_array:
+  method: add_array
+  file: add
+  threads: 20
