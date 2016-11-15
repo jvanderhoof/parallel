@@ -1,4 +1,5 @@
 import random
+# import parallel
 from add import add_array
 
 numbers = []
@@ -11,9 +12,9 @@ for arr in numbers:
     results.append(add_array(arr))
 
 # alternatively:
-results = []
-for arr in numbers:
-    with parallel():
-        results.append(add(arr))
+# results = []
+# for arr in numbers:
+#     with parallel():
+#         results.append(add(arr))
 
 print results

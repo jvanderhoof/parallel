@@ -2,6 +2,8 @@
 
 Parallel is a library that enables you to leverage the distributed computing power of [AWS Lambda](https://aws.amazon.com/lambda/) from local Python mathematical models.
 
+# *NOT ACTUALLY FUNCTIONAL CODE (YET...)*
+
 ## Example
 
 To illustrate how Parallel works, let's looks at a simple example. For this example, we're going to write a script that steps through a large number of arrays, and adds the values in the array. Because the set of arrays is so large, it would be helpful to perform these calculations in parallel to speed up the time it takes to run these calculations.
@@ -26,6 +28,7 @@ def add_array(arr):
 ```
 # example.py
 
+import parallel
 import random
 
 numbers = []
